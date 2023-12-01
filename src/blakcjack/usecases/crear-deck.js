@@ -1,13 +1,6 @@
 import _ from 'underscore';
 
 
-/** //esto se usa para documentar las funciones y agregar los tipos de datos q se esperan
- * 
- * @param {Array <string>} tiposDeCarta 
- * @param {Array<string>} tiposEspeciales 
- * @returns {Array<string>}
- */
-
 export const crearDeck = (tiposDeCarta, tiposEspeciales) => {
 
     if ( !tiposDeCarta || tiposDeCarta.length === 0) throw new Error('tipos de carta es obligatorio');
