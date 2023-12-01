@@ -1,4 +1,2 @@
 import './style.css';
-
-import _ from 'underscore';
-
+import './src/blakcjack/index';
